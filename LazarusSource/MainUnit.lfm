@@ -1,0 +1,55 @@
+object MainForm: TMainForm
+  Left = 467
+  Height = 437
+  Top = 292
+  Width = 547
+  ClientHeight = 437
+  ClientWidth = 547
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '2.0.10.0'
+  object SpeedButton1: TSpeedButton
+    Left = 8
+    Height = 22
+    Top = 8
+    Width = 97
+    Caption = 'Build 2Mbit MOS'
+    Font.Height = -11
+    OnClick = SpeedButton1Click
+    ParentFont = False
+  end
+  object SpeedButton2: TSpeedButton
+    Left = 8
+    Height = 22
+    Top = 36
+    Width = 97
+    Caption = 'Build MOS 3.20'
+    Font.Height = -11
+    OnClick = SpeedButton2Click
+    ParentFont = False
+  end
+  object SpeedButton3: TSpeedButton
+    Left = 8
+    Height = 22
+    Top = 64
+    Width = 97
+    Caption = 'Build MOS 3.50'
+    Font.Height = -11
+    OnClick = SpeedButton3Click
+    ParentFont = False
+  end
+  object Memo1: TMemo
+    Left = 111
+    Height = 417
+    Top = 8
+    Width = 426
+    Font.Height = -11
+    Lines.Strings = (    )
+    ParentFont = False
+    TabOrder = 0
+  end
+  object SaveDialog1: TSaveDialog
+    Left = 40
+    Top = 104
+  end
+end
